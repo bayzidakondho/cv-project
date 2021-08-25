@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+.container{
+	max-width: 1000px;
+	background-color: #C7D7D6;
+	margin: 0 auto;
+	padding: 20px;
+}
+.photo{
+	width: 90px;
+    height: 115px;
+    border: 3px solid #fff;
+	border-radius: 50%;
+	float: left;
+}
+.header-bio{
+	float: left;
+	padding: 30px;
+}
+h1,h2,h3,h4,h5{
+	color: #11999e;
+}
+.header-contact{
+	float: right;
+	padding: 30px;
+}
+.header-contact a{
+	text-decoration: none;
+	color: teal;
+	font-weight: bold;
+}
+.header-contact a:hover{
+	text-decoration: underline;
+	color: tomato;
+}
+.clear-div{
+	clear: both;
+}
+hr{
+	width: 100%;
+	margin: 20px auto;
+	border: 2px solid #000;
+	border-bottom: none;
+}
+.left{
+	width: 30%;
+	float: left;
+}
+.right{
+	width: 70%;
+	float: left;
+}
+.comon-hr{
+	width: 100%;
+	margin: 20px auto;
+	border: 1px solid #000;
+	border-bottom: none;
+}
+.edu-left{
+	width: 40%;
+	float: left;
+}
+.edu-right{
+	width: 40%;
+	float: right;
+}
+.bottom-container{
+	background: #000;
+	text-align: center;
+	padding: 5px;
+}
+.bottom-container a{
+	color: #fff;
+	padding: 15px;
+	text-decoration: none;
+}
+.bottom-container p{
+	color: #fff;
+	margin-top: 12px;
+}
+.edu-right a{
+	text-decoration: none;
+}
+.edu-left a{
+	text-decoration: none;
+}
